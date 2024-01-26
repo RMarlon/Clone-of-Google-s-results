@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #202124;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid saddlebrown;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+
+.logo_google {
+    display: flex;
+    align-items: center;
+}
+
+.img_logo_google {
+    width: 92px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 8px;
+}
+
+.search_container {
+    width: 692px;
+    height: 46px;
+    background: #303134;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+
+hr{
+    height:  27px;
+    margin: auto;
+}
+
+.search_container:hover {
+    box-shadow: 0 2px 5px #000000;
+}
+
+.input_search {
+    width: 489px;
+    height: 25px;
+    margin-top: 16px;
+    background: #303134;
+    border: 0;
+    margin-left: 20px;
+}
+
+.cross_close{
+    height: 27px;
+    cursor: pointer;
+}
+.search_voice {
+    width: 17px;
+    height: 17px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.search_image {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.magnifying_glass_search {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
