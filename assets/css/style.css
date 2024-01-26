@@ -6,6 +6,11 @@
 
 body {
     background: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header_container {
@@ -19,6 +24,7 @@ body {
 
 .logo_google {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -80,4 +86,33 @@ hr{
     width: 25px;
     height: 25px;
     margin: auto;
+}
+
+.left_menu{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.left_menu nav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.left_menu nav a{
+    height: 40px;
+    padding: 10px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 24px;
+    background-color: #202124;
+    border: 1px solid #3c4043;
+    color: #ffffff;
+    transition: background 0.2px;
+}
+
+.left_menu nav a:hover{
+    background: #3c4043;
 }
