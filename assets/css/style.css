@@ -68,6 +68,8 @@ hr {
     font-size: 18px;
     margin: auto;
     color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 
@@ -392,13 +394,131 @@ hr {
     height: 20px;
 }
 
-.options{
+.options {
     display: flex;
     margin-top: 10px;
 }
 
-.options a{
+.options a {
     font-weight: bold;
     display: flex;
     margin-left: 10px;
+}
+
+/* ende footer  */
+
+@media(max-width:768px) {
+
+
+    .header_container {
+        margin: 15px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .img_logo_google {
+        width: 72px;
+        height: 33px;
+        margin-top: 0;
+    }
+    .search_container {
+        width: 438px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .input_search {
+        width: 300px;
+    }
+
+    .left_container {
+        display: flex;
+    }
+
+    .left_menu {
+        margin: 0;
+    }
+
+    .left_menu nav {
+        margin: 0 ;
+    }
+
+    .right_menu{
+        justify-content: start;
+    }
+    .middle_container {
+     display: none;
+    }
+
+    .section_container {
+        padding: 10px;
+    }
+
+    .body_container {
+        margin-left: 20px;
+    }
+
+    .safe_search{
+        margin-top: 15px;
+    }
+
+    .results{
+        justify-content: center;
+    }
+
+    .location{
+        margin-left: 0;
+    }
+}
+
+@media(max-width:425px){
+
+    body{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header_container{
+        /* flex-direction: column; */
+        justify-content: start;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .search_container{
+        width: 280px;
+    }
+
+    .input_search{
+        width:130px; 
+    }
+
+    .right_menu{
+     /* display: none; */
+        position: absolute;
+        right: 0px;
+        left: 30rem;
+        top: 20px;
+    }
+
+    .left_container{
+        margin-top: 10px;
+    }
+
+    .border{
+        margin: 0;
+        min-width: 100%;
+    }
+    .safe_search{
+        display: none;
+    }
+
+    .results{
+        justify-content: start;
+    }
 }
